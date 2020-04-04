@@ -29,7 +29,7 @@ public class HelloSender {
                 .id(UUID.randomUUID())
                 .message("Hello World!")
                 .build();
-
+        //**Convert and send a message to the que named "my-hello-world"
         jmsTemplate.convertAndSend(JmsConfig.MY_QUEUE, message);
 
         System.out.println("Message Sent!");
