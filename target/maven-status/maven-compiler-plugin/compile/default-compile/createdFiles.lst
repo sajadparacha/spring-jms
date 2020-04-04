@@ -1,1 +1,3 @@
+com\spring5\jms\model\HelloWorldMessage.class
 com\spring5\jms\JmsApplication.class
+com\spring5\jms\model\HelloWorldMessage$HelloWorldMessageBuilder.class
