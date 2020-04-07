@@ -19,7 +19,9 @@
     </properties>
 
     <dependencies>
+        <!-- We are going to use Docker instance having MQ server installed on it so we will disbale below ActiveMQServer-->
         <!--Embaded server for JMS-->
+        <!--
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-server</artifactId>
@@ -29,6 +31,7 @@
             <groupId>org.apache.activemq</groupId>
             <artifactId>artemis-jms-server</artifactId>
         </dependency>
+        -->
         <!--Embaded server for JMS-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
